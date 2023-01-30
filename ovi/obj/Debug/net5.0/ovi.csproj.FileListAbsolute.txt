@@ -1,0 +1,16 @@
+C:\Users\s2101097\source\repos\ovi\obj\Debug\net5.0\ovi.csproj.AssemblyReference.cache
+C:\Users\s2101097\source\repos\ovi\obj\Debug\net5.0\ovi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s2101097\source\repos\ovi\obj\Debug\net5.0\ovi.AssemblyInfoInputs.cache
+C:\Users\s2101097\source\repos\ovi\obj\Debug\net5.0\ovi.AssemblyInfo.cs
+C:\Users\s2101097\source\repos\ovi\obj\Debug\net5.0\ovi.csproj.CoreCompileInputs.cache
+C:\Users\s2101097\source\repos\ovi\bin\Debug\net5.0\ovi.exe
+C:\Users\s2101097\source\repos\ovi\bin\Debug\net5.0\ovi.deps.json
+C:\Users\s2101097\source\repos\ovi\bin\Debug\net5.0\ovi.runtimeconfig.json
+C:\Users\s2101097\source\repos\ovi\bin\Debug\net5.0\ovi.runtimeconfig.dev.json
+C:\Users\s2101097\source\repos\ovi\bin\Debug\net5.0\ovi.dll
+C:\Users\s2101097\source\repos\ovi\bin\Debug\net5.0\ref\ovi.dll
+C:\Users\s2101097\source\repos\ovi\bin\Debug\net5.0\ovi.pdb
+C:\Users\s2101097\source\repos\ovi\obj\Debug\net5.0\ovi.dll
+C:\Users\s2101097\source\repos\ovi\obj\Debug\net5.0\ref\ovi.dll
+C:\Users\s2101097\source\repos\ovi\obj\Debug\net5.0\ovi.pdb
+C:\Users\s2101097\source\repos\ovi\obj\Debug\net5.0\ovi.genruntimeconfig.cache
