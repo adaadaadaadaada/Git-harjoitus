@@ -1,0 +1,16 @@
+C:\Users\s2101097\source\repos\Olioohjelmointi\ruokaannos\bin\Debug\net5.0\ruokaannos.exe
+C:\Users\s2101097\source\repos\Olioohjelmointi\ruokaannos\bin\Debug\net5.0\ruokaannos.deps.json
+C:\Users\s2101097\source\repos\Olioohjelmointi\ruokaannos\bin\Debug\net5.0\ruokaannos.runtimeconfig.json
+C:\Users\s2101097\source\repos\Olioohjelmointi\ruokaannos\bin\Debug\net5.0\ruokaannos.runtimeconfig.dev.json
+C:\Users\s2101097\source\repos\Olioohjelmointi\ruokaannos\bin\Debug\net5.0\ruokaannos.dll
+C:\Users\s2101097\source\repos\Olioohjelmointi\ruokaannos\bin\Debug\net5.0\ref\ruokaannos.dll
+C:\Users\s2101097\source\repos\Olioohjelmointi\ruokaannos\bin\Debug\net5.0\ruokaannos.pdb
+C:\Users\s2101097\source\repos\Olioohjelmointi\ruokaannos\obj\Debug\net5.0\ruokaannos.csproj.AssemblyReference.cache
+C:\Users\s2101097\source\repos\Olioohjelmointi\ruokaannos\obj\Debug\net5.0\ruokaannos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s2101097\source\repos\Olioohjelmointi\ruokaannos\obj\Debug\net5.0\ruokaannos.AssemblyInfoInputs.cache
+C:\Users\s2101097\source\repos\Olioohjelmointi\ruokaannos\obj\Debug\net5.0\ruokaannos.AssemblyInfo.cs
+C:\Users\s2101097\source\repos\Olioohjelmointi\ruokaannos\obj\Debug\net5.0\ruokaannos.csproj.CoreCompileInputs.cache
+C:\Users\s2101097\source\repos\Olioohjelmointi\ruokaannos\obj\Debug\net5.0\ruokaannos.dll
+C:\Users\s2101097\source\repos\Olioohjelmointi\ruokaannos\obj\Debug\net5.0\ref\ruokaannos.dll
+C:\Users\s2101097\source\repos\Olioohjelmointi\ruokaannos\obj\Debug\net5.0\ruokaannos.pdb
+C:\Users\s2101097\source\repos\Olioohjelmointi\ruokaannos\obj\Debug\net5.0\ruokaannos.genruntimeconfig.cache
