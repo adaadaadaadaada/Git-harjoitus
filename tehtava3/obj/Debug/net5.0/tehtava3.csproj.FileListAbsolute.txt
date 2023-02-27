@@ -1,0 +1,16 @@
+C:\Users\s2101097\source\repos\Olioohjelmointi\tehtava3\bin\Debug\net5.0\tehtava3.exe
+C:\Users\s2101097\source\repos\Olioohjelmointi\tehtava3\bin\Debug\net5.0\tehtava3.deps.json
+C:\Users\s2101097\source\repos\Olioohjelmointi\tehtava3\bin\Debug\net5.0\tehtava3.runtimeconfig.json
+C:\Users\s2101097\source\repos\Olioohjelmointi\tehtava3\bin\Debug\net5.0\tehtava3.runtimeconfig.dev.json
+C:\Users\s2101097\source\repos\Olioohjelmointi\tehtava3\bin\Debug\net5.0\tehtava3.dll
+C:\Users\s2101097\source\repos\Olioohjelmointi\tehtava3\bin\Debug\net5.0\ref\tehtava3.dll
+C:\Users\s2101097\source\repos\Olioohjelmointi\tehtava3\bin\Debug\net5.0\tehtava3.pdb
+C:\Users\s2101097\source\repos\Olioohjelmointi\tehtava3\obj\Debug\net5.0\tehtava3.csproj.AssemblyReference.cache
+C:\Users\s2101097\source\repos\Olioohjelmointi\tehtava3\obj\Debug\net5.0\tehtava3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s2101097\source\repos\Olioohjelmointi\tehtava3\obj\Debug\net5.0\tehtava3.AssemblyInfoInputs.cache
+C:\Users\s2101097\source\repos\Olioohjelmointi\tehtava3\obj\Debug\net5.0\tehtava3.AssemblyInfo.cs
+C:\Users\s2101097\source\repos\Olioohjelmointi\tehtava3\obj\Debug\net5.0\tehtava3.csproj.CoreCompileInputs.cache
+C:\Users\s2101097\source\repos\Olioohjelmointi\tehtava3\obj\Debug\net5.0\tehtava3.dll
+C:\Users\s2101097\source\repos\Olioohjelmointi\tehtava3\obj\Debug\net5.0\ref\tehtava3.dll
+C:\Users\s2101097\source\repos\Olioohjelmointi\tehtava3\obj\Debug\net5.0\tehtava3.pdb
+C:\Users\s2101097\source\repos\Olioohjelmointi\tehtava3\obj\Debug\net5.0\tehtava3.genruntimeconfig.cache
