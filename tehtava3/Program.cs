@@ -1,135 +1,132 @@
 ﻿// Tämän alle kaikki
 using System;
 
-Nuoli pelaajanuoli = new Nuoli();
+Nuoli pelaajanuoli = Nuoli.Eliittinuoli();
 
-Console.WriteLine("Minkälainen kärki? (puu, teräs tai timantti): ");
-string userInput = Console.ReadLine();
-if (userInput == "puu")
+Console.WriteLine("Valitse yksi: A) valmis nuolipohja, vai B) kustomoitu nuoli?");
+string userinput0 = Console.ReadLine();
+if (userinput0 == "A")
 {
-    pelaajanuoli.SetKarki(karki.puu);
+    Console.WriteLine("Minkälainen nuoli? (eliittinuoli, aloittelijanuoli tai perusnuoli)");
+    string userinput01 = Console.ReadLine();
+    
+    // Pelaajan vastaus asettaa yhden näistä arvoista nuolelle
+    if (userinput01 == "eliittinuoli") { pelaajanuoli = Nuoli.Eliittinuoli(); }
+    if (userinput01 == "aloittelijanuoli") { pelaajanuoli = Nuoli.Aloittelijanuoli(); }
+    if(userinput01 == "perusnuoli") { pelaajanuoli = Nuoli.Perusnuoli(); }
 }
-if (userInput == "teräs")
+else if (userinput0 == "B")
 {
-    pelaajanuoli.SetKarki(karki.teras);
-}
-if (userInput == "timantti")
-{
-    pelaajanuoli.SetKarki(karki.timantti);
-}
-
-Console.WriteLine("Minkälaiset sulat? (lehti, kanansulka tai kotkansulka): ");
-string userInput2 = Console.ReadLine();
-if (userInput2 == "lehti")
-{
-    pelaajanuoli.SetPera(pera.lehti);
-}
-if (userInput2 == "kanansulka")
-{
-    pelaajanuoli.SetPera(pera.kanansulka);
-}
-if (userInput2 == "kotkansulka")
-{
-    pelaajanuoli.SetPera(pera.kotkansulka);
-}
-
-int userInput3 = 0;
-
-while (userInput3 < 60 || userInput3 > 100)
-{
-    Console.WriteLine("Nuolen pituus (60-100cm): ");
-    userInput3 = Convert.ToInt32(Console.ReadLine());
-
-    if (userInput3 < 60)
+    // Tänne kustomoitu kärki, perä ja varren pituus
+    Console.WriteLine("Minkälainen kärki? (puu, teräs tai timantti): ");
+    string userInput = Console.ReadLine();
+    if (userInput == "puu")
     {
-        Console.WriteLine("Liian pieni luku!");
+        pelaajanuoli.Karki = karki.puu;
     }
-    else if (userInput3 > 100)
+    if (userInput == "teräs")
     {
-        Console.WriteLine("Liian suuri luku!");
+        pelaajanuoli.Karki = karki.teras;
     }
-}
+    if (userInput == "timantti")
+    {
+        pelaajanuoli.Karki = karki.timantti;
+    }
 
-pelaajanuoli.SetVarsi(userInput3);
+    Console.WriteLine("Minkälaiset sulat? (lehti, kanansulka tai kotkansulka): ");
+    string userInput2 = Console.ReadLine();
+    if (userInput2 == "lehti")
+    {
+        pelaajanuoli.Pera = pera.lehti;
+    }
+    if (userInput2 == "kanansulka")
+    {
+        pelaajanuoli.Pera = pera.kanansulka;
+    }
+    if (userInput2 == "kotkansulka")
+    {
+        pelaajanuoli.Pera = pera.kotkansulka;
+    }
+
+    int userInput3 = 0;
+
+    while (userInput3 < 60 || userInput3 > 100)
+    {
+        Console.WriteLine("Nuolen pituus (60-100cm): ");
+        userInput3 = Convert.ToInt32(Console.ReadLine());
+
+        if (userInput3 < 60)
+        {
+            Console.WriteLine("Liian pieni luku!");
+        }
+        else if (userInput3 > 100)
+        {
+            Console.WriteLine("Liian suuri luku!");
+        }
+    }
+
+    pelaajanuoli.Varrenpituus = userInput3;
+}
 
 Console.WriteLine($"Nuolen hinta on {pelaajanuoli.GetPalautaHinta()} kultaa.");
 
 class Nuoli
 {
-    private karki nuolenkarki;
-    private pera nuolenpera;
-    private int nuolenvarsi;
+    public karki Karki
+    {
+        get; set;
+    }
+    public pera Pera
+    {
+        get; set;
+    }
+    public float Varrenpituus
+    {
+        get; set;
+    }
+
+    public Nuoli(karki karki, pera pera, float varrenpituus)
+    {
+        Karki = karki;
+        Pera = pera;
+        Varrenpituus = varrenpituus;
+    }
+
+    public Nuoli() { }
 
     public float GetPalautaHinta()
     {
         float hinta = 0;
 
         // Nuolenkärjen hinta
-        if (nuolenkarki == karki.puu)
-        {
-            hinta += 3;
-        }
-        else if (nuolenkarki == karki.teras)
-        {
-            hinta += 5;
-        }
-        else if (nuolenkarki == karki.timantti)
-        {
-            hinta += 50;
-        }
+        if (Karki == karki.puu) {hinta += 3;}
+        else if (Karki == karki.teras) {hinta += 5; }
+        else if (Karki == karki.timantti) { hinta += 50;}
 
         // Nuolenperän hinta
-        if (nuolenpera == pera.lehti)
+        if (Pera == pera.lehti)
         {
             hinta += 0;
         }
-        else if (nuolenpera == pera.kanansulka)
+        else if (Pera == pera.kanansulka)
         {
             hinta += 1;
         }
-        else if (nuolenpera == pera.kanansulka)
+        else if (Pera == pera.kanansulka)
         {
             hinta += 5;
         }
 
         // Varren hinta
-        hinta += (0.05f * nuolenvarsi);
+        hinta += (0.05f * Varrenpituus);
         
         return hinta;
     }
 
-    public karki GetKarki()
-    {
-        return nuolenkarki;
-    }
-
-    public pera GetPera()
-    {
-        return nuolenpera;
-    }
-
-    public int GetNuolenvarsi()
-    {
-        return nuolenvarsi;
-    }
-
-    public void SetKarki(karki karki)
-    {
-        nuolenkarki = karki;
-    }
-
-    public void SetPera(pera pera)
-    {
-        nuolenpera = pera;
-    }
-
-    public void SetVarsi(int varsi)
-    {
-        nuolenvarsi = varsi;
-    }
+    public static Nuoli Eliittinuoli() {return new Nuoli(karki.timantti, pera.kotkansulka, 100); }
+    public static Nuoli Aloittelijanuoli() { return new Nuoli(karki.puu, pera.kanansulka, 70); }
+    public static Nuoli Perusnuoli() {return new Nuoli(karki.teras, pera.kanansulka, 85);}
 }
-
-
 
 internal enum karki {puu,  teras, timantti}
 
